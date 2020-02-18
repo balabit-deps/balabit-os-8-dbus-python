@@ -1,0 +1,5 @@
+usr/lib/python2.*/*-packages/_dbus_bindings.so
+usr/lib/python2.*/*-packages/_dbus_glib_bindings.so
+usr/lib/python2.*/*-packages/dbus/*.py
+usr/lib/python2.*/*-packages/dbus/*/*.py
+usr/lib/python2.*/*-packages/dbus_python-*.egg-info

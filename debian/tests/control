@@ -1,0 +1,37 @@
+Tests: build2
+Restrictions: skip-not-installable
+Depends:
+ build-essential,
+ libglib2.0-dev,
+ python-dbus,
+ python-dbus-dbg,
+ python-dbus-dev,
+ python2-dbg,
+ python2-dev,
+
+Tests: build3
+Depends:
+ build-essential,
+ libglib2.0-dev,
+ python-dbus-dev,
+ python3-all-dbg,
+ python3-all-dev,
+ python3-dbus,
+ python3-dbus-dbg,
+
+Tests: python2
+Restrictions: skip-not-installable
+Depends:
+ dbus,
+ gnome-desktop-testing,
+ python-dbus-tests,
+ python-gi,
+ python2,
+
+Tests: python3
+Depends:
+ dbus,
+ gnome-desktop-testing,
+ python3-dbus-tests,
+ python3-gi,
+ python3-tap,
